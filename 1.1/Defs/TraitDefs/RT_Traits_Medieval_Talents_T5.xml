@@ -23,7 +23,6 @@
           <PainShockThreshold>0.25</PainShockThreshold>
           <ComfyTemperatureMax>5</ComfyTemperatureMax>
           <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-          <ArmorRating_Sharp>1</ArmorRating_Sharp>
         </statOffsets>
         <skillGains>
           <li><key>Shooting</key><value>8</value></li>
