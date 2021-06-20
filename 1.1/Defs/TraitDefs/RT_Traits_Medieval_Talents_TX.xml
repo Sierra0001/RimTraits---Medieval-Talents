@@ -18,7 +18,7 @@
           <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
   		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
   		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
-        </statFactor>
+        </statFactors>
       </li>
     </degreeDatas>
     <conflictingTraits>
