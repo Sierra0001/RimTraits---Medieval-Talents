@@ -13,10 +13,12 @@
           <PainShockThreshold>0.05</PainShockThreshold>
           <ComfyTemperatureMax>3</ComfyTemperatureMax>
           <ComfyTemperatureMin>-3</ComfyTemperatureMin>
-		  <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
-		  <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
-		  <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactor>
       </li>
     </degreeDatas>
     <conflictingTraits>
