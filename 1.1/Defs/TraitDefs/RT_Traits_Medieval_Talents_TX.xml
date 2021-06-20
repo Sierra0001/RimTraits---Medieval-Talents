@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>TalentNoTalent</defName>
+    <commonality>33</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#ff6fff&gt;No Talent&lt;/color&gt;</label>
+        <description>[PAWN_nameDef] has no talent. None whatsoever</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <PainShockThreshold>0.05</PainShockThreshold>
+          <ComfyTemperatureMax>3</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>TalentBowman</li>
+      <li>TalentSwordsman</li>
+      <li>TalentBuilder</li>
+      <li>TalentMiner</li>
+      <li>TalentKitchenhand</li>
+      <li>TalentButcher</li>
+      <li>TalentFarmer</li>
+      <li>TalentHerder</li>
+      <li>TalentSmith</li>
+      <li>TalentTailor</li>
+      <li>TalentArtist</li>
+      <li>TalentPhysician</li>
+      <li>TalentTrader</li>
+      <li>TalentScholar</li>
+      <li>TalentGroundskeeper</li>
+      <li>TalentCopycat</li>
+      <li>TalentWeaponsMaster</li>
+      <li>TalentHunter</li>
+      <li>TalentEngineer</li>
+      <li>TalentCook</li>
+      <li>TalentHerbalist</li>
+      <li>TalentArmourer</li>
+      <li>TalentFletcher</li>
+      <li>TalentVeterinarian</li>
+      <li>TalentAdventurer</li>
+      <li>TalentArchitect</li>
+      <li>TalentChef</li>
+      <li>TalentSurgeon</li>
+      <li>TalentPhilosopher</li>
+      <li>TalentScout</li>
+      <li>TalentRecruiter</li>
+      <li>TalentJackOfAllTrades</li>
+      <li>TalentHero</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

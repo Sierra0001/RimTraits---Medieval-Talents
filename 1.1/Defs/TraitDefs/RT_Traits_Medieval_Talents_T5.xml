@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>TalentHero</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#e0115f&gt;Talent: Hero&lt;/color&gt;</label>
+        <description>As long as [PAWN_nameDef] still draws breath, isn't one threat the the colony couldn't overcome!</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.25</AimingDelayFactor>
+          <MeleeHitChance>12</MeleeHitChance>
+          <MeleeDodgeChance>24</MeleeDodgeChance>
+          <MedicalTendQuality>0.15</MedicalTendQuality>
+          <IncomingDamageFactor>-0.60</IncomingDamageFactor>
+          <CarryingCapacity>10</CarryingCapacity>
+          <RestRateMultiplier>0.5</RestRateMultiplier>
+          <MoveSpeed>0.3</MoveSpeed>
+          <PawnTrapSpringChance>-0.15</PawnTrapSpringChance>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <PainShockThreshold>0.25</PainShockThreshold>
+          <ComfyTemperatureMax>5</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <ArmorRating_Sharp>1</ArmorRating_Sharp>
+        </statOffsets>
+        <skillGains>
+          <li><key>Shooting</key><value>8</value></li>
+          <li><key>Melee</key><value>8</value></li>
+          <li><key>Medicine</key><value>6</value></li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>TalentBowman</li>
+      <li>TalentSwordsman</li>
+      <li>TalentBuilder</li>
+      <li>TalentMiner</li>
+      <li>TalentKitchenhand</li>
+      <li>TalentButcher</li>
+      <li>TalentFarmer</li>
+      <li>TalentHerder</li>
+      <li>TalentSmith</li>
+      <li>TalentTailor</li>
+      <li>TalentArtist</li>
+      <li>TalentPhysician</li>
+      <li>TalentTrader</li>
+      <li>TalentScholar</li>
+      <li>TalentGroundskeeper</li>
+      <li>TalentCopycat</li>
+      <li>TalentWeaponsMaster</li>
+      <li>TalentHunter</li>
+      <li>TalentEngineer</li>
+      <li>TalentCook</li>
+      <li>TalentHerbalist</li>
+      <li>TalentArmourer</li>
+      <li>TalentFletcher</li>
+      <li>TalentVeterinarian</li>
+      <li>TalentAdventurer</li>
+      <li>TalentArchitect</li>
+      <li>TalentChef</li>
+      <li>TalentSurgeon</li>
+      <li>TalentPhilosopher</li>
+      <li>TalentScout</li>
+      <li>TalentRecruiter</li>
+      <li>TalentJackOfAllTrades</li>
+      <li>TalentNoTalent</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+      <li>Firefighting</li>
+    </requiredWorkTags>
+  </TraitDef>
+
+</Defs>
