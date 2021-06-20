@@ -42,6 +42,7 @@ namespace RimTraits
             }
         }
 
+        [HarmonyPriority(Priority.Last)]
         public static void Postfix(Pawn pawn, PawnGenerationRequest request, List<TraitDef> __state)
         {
             if (__state.Any())
