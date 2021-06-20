@@ -85,8 +85,13 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
+                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
+                    if (__result != oldREs)
+                    {
+                        Log.Message("JOY: " + oldREs + " - " + __result);
+                    }
                 }
             }
         }
@@ -101,9 +106,15 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
+                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_FoodNeedDecay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_FoodNeedDecay);
+                    if (__result != oldREs)
+                    {
+                        Log.Message("FOOD: " + oldREs + " - " + __result);
+                    }
                 }
+
             }
         }
     }
@@ -117,8 +128,13 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
+                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RestNeed_Decay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RestNeed_Decay);
+                    if (__result != oldREs)
+                    {
+                        Log.Message("REST: " + oldREs + " - " + __result);
+                    }
                 }
             }
         }

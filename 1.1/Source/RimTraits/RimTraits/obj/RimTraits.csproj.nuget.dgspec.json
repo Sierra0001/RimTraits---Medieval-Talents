@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {}
+    "c:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {}
   },
   "projects": {
-    "C:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {
+    "c:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
+        "projectUniqueName": "c:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
         "projectName": "RimTraits",
-        "projectPath": "C:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
+        "projectPath": "c:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
         "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
-        "outputPath": "C:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\obj\\",
+        "outputPath": "c:\\Games\\Rimworld\\Mods\\RimTraits---Medieval-Talents\\1.1\\Source\\RimTraits\\RimTraits\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
