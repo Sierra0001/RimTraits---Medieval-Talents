@@ -86,7 +86,7 @@ namespace RimTraits
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
-                    __result += trait.MultiplierOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
+                    __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
                 }
             }
         }
@@ -102,7 +102,7 @@ namespace RimTraits
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_FoodNeedDecay);
-                    __result += trait.MultiplierOfStat(RT_DefOf.RTMT_FoodNeedDecay);
+                    __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_FoodNeedDecay);
                 }
             }
         }
@@ -118,7 +118,7 @@ namespace RimTraits
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RestNeed_Decay);
-                    __result += trait.MultiplierOfStat(RT_DefOf.RTMT_RestNeed_Decay);
+                    __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RestNeed_Decay);
                 }
             }
         }
