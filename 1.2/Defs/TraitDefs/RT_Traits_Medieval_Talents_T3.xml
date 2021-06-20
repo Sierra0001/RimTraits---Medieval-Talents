@@ -24,6 +24,11 @@
           <ComfyTemperatureMax>5</ComfyTemperatureMax>
           <ComfyTemperatureMin>-5</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.90</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.90</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.90</RTMT_RecreationNeed_Decay>
+        </statFactors>
         <skillGains>
           <li><key>Shooting</key><value>5</value></li>
           <li><key>Melee</key><value>5</value></li>
@@ -94,6 +99,11 @@
           <ComfyTemperatureMax>3</ComfyTemperatureMax>
           <ComfyTemperatureMin>-3</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactors>
         <skillGains>
           <li><key>Construction</key><value>4</value></li>
           <li><key>Mining</key><value>4</value></li>
@@ -163,6 +173,11 @@
           <ComfyTemperatureMax>3</ComfyTemperatureMax>
           <ComfyTemperatureMin>-3</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactors>
         <skillGains>
           <li><key>Cooking</key><value>6</value></li>
         </skillGains>
@@ -228,6 +243,11 @@
           <ComfyTemperatureMax>5</ComfyTemperatureMax>
           <ComfyTemperatureMin>-5</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactors>
         <skillGains>
           <li><key>Medicine</key><value>4</value></li>
         </skillGains>
@@ -292,6 +312,11 @@
           <ComfyTemperatureMax>3</ComfyTemperatureMax>
           <ComfyTemperatureMin>-3</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactors>
         <skillGains>
           <li><key>Social</key><value>6</value></li>
           <li><key>Intellectual</key><value>6</value></li>

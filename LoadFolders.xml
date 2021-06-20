@@ -1,13 +1,6 @@
 <loadFolders>
-  <v1.0>
-    <li>1.0</li>
-  </v1.0>
-  <v1.1>
-    <li>1.1</li>
-    <li IfModActive="syrchalis.traitvalue">Patches_Trait_Value_Framework</li>
-  </v1.1>
   <v1.2>
-    <li>1.1</li>
+    <li>1.2</li>
     <li IfModActive="syrchalis.traitvalue">Patches_Trait_Value_Framework</li>
   </v1.2>
 </loadFolders>

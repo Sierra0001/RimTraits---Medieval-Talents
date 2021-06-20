@@ -3,7 +3,7 @@
 
   <TraitDef ParentName="RimTraitBase">
     <defName>TalentNoTalent</defName>
-    <commonality>33</commonality>
+    <commonality>35</commonality>
     <degreeDatas>
       <li>
         <label>&lt;color=#ff6fff&gt;No Talent&lt;/color&gt;</label>
