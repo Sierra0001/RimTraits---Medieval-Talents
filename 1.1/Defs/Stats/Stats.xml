@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<StatDef ParentName="GeneralLaborSpeed">
+	<StatDef Name="MTStat" Abstract="True">
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0.1</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.5</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+		<displayPriorityInCategory>4999</displayPriorityInCategory>
+	</StatDef>
+	
+	<StatDef ParentName="MTStat">
 		<defName>SculptingSpeed</defName>
 		<label>sculpting speed</label>
 		<description>The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill.</description>
@@ -9,8 +31,7 @@
 		</statFactors>
 		<capacityFactors Inherit="False"/>
 	</StatDef>
-
-	<StatDef ParentName="GeneralLaborSpeed">
+	<StatDef ParentName="MTStat">
 		<defName>TailoringSpeed</defName>
 		<label>tailoring speed</label>
 		<description>The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill.</description>
@@ -19,8 +40,7 @@
 		</statFactors>
 		<capacityFactors Inherit="False"/>
 	</StatDef>
-
-	<StatDef ParentName="GeneralLaborSpeed">
+	<StatDef ParentName="MTStat">
 		<defName>SmithingSpeed</defName>
 		<label>smithing speed</label>
 		<description>Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill.</description>

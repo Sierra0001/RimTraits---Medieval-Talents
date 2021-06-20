@@ -10,14 +10,6 @@ using Verse;
 
 namespace RimTraits
 {
-    [StaticConstructorOnStartup]
-    internal static class HarmonyInit
-    {
-        static HarmonyInit()
-        {
-            new Harmony("RimTraits.Mod").PatchAll();
-        }
-    }
 
     [HarmonyPatch(typeof(PawnGenerator), "GenerateTraits")]
     public static class GenerateTraits_Patch
@@ -85,13 +77,8 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
-                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RecreationNeed_Decay);
-                    if (__result != oldREs)
-                    {
-                        Log.Message("JOY: " + oldREs + " - " + __result);
-                    }
                 }
             }
         }
@@ -106,15 +93,9 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
-                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_FoodNeedDecay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_FoodNeedDecay);
-                    if (__result != oldREs)
-                    {
-                        Log.Message("FOOD: " + oldREs + " - " + __result);
-                    }
                 }
-
             }
         }
     }
@@ -128,15 +109,66 @@ namespace RimTraits
             {
                 foreach (var trait in ___pawn.story.traits.allTraits)
                 {
-                    var oldREs = __result;
                     __result += trait.OffsetOfStat(RT_DefOf.RTMT_RestNeed_Decay);
                     __result *= trait.MultiplierOfStat(RT_DefOf.RTMT_RestNeed_Decay);
-                    if (__result != oldREs)
+                }
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(RecipeDefGenerator), "ImpliedRecipeDefs")]
+    internal static class Patch_ImpliedRecipeDefs
+    {
+        private static void Prefix()
+        {
+            if (!ModLister.HasActiveModWithName("De-generalize Work"))
+            {
+                foreach (var def in DefDatabase<ThingDef>.AllDefs)
+                {
+                    if (def.recipeMaker != null)
                     {
-                        Log.Message("REST: " + oldREs + " - " + __result);
+                        if (def.recipeMaker.workSpeedStat == StatDefOf.GeneralLaborSpeed)
+                        {
+                            var ef = def.recipeMaker.effectWorking;
+                            var ru = def.recipeMaker.recipeUsers;
+                            if (ef == RT_DefOf.Smelt || ef == RT_DefOf.Cook || ef == RT_DefOf.Smith)
+                            {
+                                if (ru != null && (ru.Contains(ThingDef.Named("TableMachining")) || ru.Contains(ThingDef.Named("ElectricSmithy")) || ru.Contains(ThingDef.Named("FueledSmithy"))))
+                                {
+                                    def.recipeMaker.workSpeedStat = RT_DefOf.SmithingSpeed;
+                                }
+                            }
+                            else if (ef == RT_DefOf.Tailor)
+                            {
+                                if (ru != null && (ru.Contains(ThingDef.Named("ElectricTailoringBench")) || ru.Contains(ThingDef.Named("HandTailoringBench"))))
+                                {
+                                    def.recipeMaker.workSpeedStat = RT_DefOf.TailoringSpeed;
+                                }
+                            }
+                            else if (ef == RT_DefOf.Sculpt)
+                            {
+                                if (ru != null && (ru.Contains(ThingDef.Named("TableSculpting"))))
+                                {
+                                    def.recipeMaker.workSpeedStat = RT_DefOf.SculptingSpeed;
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                foreach (var def in DefDatabase<RecipeDef>.AllDefs)
+                {
+                    if (def.workSpeedStat == StatDefOf.GeneralLaborSpeed)
+                    {
+                        if (def.effectWorking == RT_DefOf.Tailor)
+                        {
+                            def.workSpeedStat = RT_DefOf.TailoringSpeed;
+                        }
                     }
                 }
             }
+
         }
     }
 }

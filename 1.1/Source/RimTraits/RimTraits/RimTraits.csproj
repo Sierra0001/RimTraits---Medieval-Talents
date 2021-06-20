@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="RT_DefOf.cs" />
     <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="RimTraitsMod.cs" />
     <Compile Include="TraitExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
