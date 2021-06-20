@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StatDef>
+		<defName>RTMT_FoodNeedDecay</defName>
+		<label>food need decay</label>
+	</StatDef>
+	
+	<StatDef>
+		<defName>RTMT_RestNeed_Decay</defName>
+		<label>rest need decay</label>
+	</StatDef>
+	
+	<StatDef>
+		<defName>RTMT_RecreationNeed_Decay</defName>
+		<label>recreation need decay</label>
+	</StatDef>
+</Defs>

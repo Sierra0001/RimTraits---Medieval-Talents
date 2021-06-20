@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StatDef ParentName="GeneralLaborSpeed">
+		<defName>SculptingSpeed</defName>
+		<label>sculpting speed</label>
+		<description>The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill.</description>
+		<statFactors Inherit="False">
+			<li>GeneralLaborSpeed</li>
+		</statFactors>
+		<capacityFactors Inherit="False"/>
+	</StatDef>
+
+	<StatDef ParentName="GeneralLaborSpeed">
+		<defName>TailoringSpeed</defName>
+		<label>tailoring speed</label>
+		<description>The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill.</description>
+		<statFactors Inherit="False">
+			<li>GeneralLaborSpeed</li>
+		</statFactors>
+		<capacityFactors Inherit="False"/>
+	</StatDef>
+
+	<StatDef ParentName="GeneralLaborSpeed">
+		<defName>SmithingSpeed</defName>
+		<label>smithing speed</label>
+		<description>Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill.</description>
+		<statFactors Inherit="False">
+			<li>GeneralLaborSpeed</li>
+		</statFactors>
+		<capacityFactors Inherit="False"/>
+	</StatDef>
+</Defs>

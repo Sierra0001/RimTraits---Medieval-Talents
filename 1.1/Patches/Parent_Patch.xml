@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>De-generalize Work</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAttributeAdd">
+					<xpath>Defs/StatDef[defName="GeneralLaborSpeed"]</xpath>
+					<attribute>Name</attribute>
+					<value>GeneralLaborSpeed</value>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>

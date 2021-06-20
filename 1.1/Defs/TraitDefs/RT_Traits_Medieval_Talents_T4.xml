@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentScout</defName>
     <commonality>1.5</commonality>
     <degreeDatas>
@@ -80,7 +80,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentRecruiter</defName>
     <commonality>1.5</commonality>
     <degreeDatas>
@@ -152,7 +152,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentJackOfAllTrades</defName>
     <commonality>1.5</commonality>
     <degreeDatas>

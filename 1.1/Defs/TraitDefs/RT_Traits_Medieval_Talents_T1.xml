@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentBowman</defName>
     <commonality>12</commonality>
     <degreeDatas>
@@ -70,7 +70,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentSwordsman</defName>
     <commonality>12</commonality>
     <degreeDatas>
@@ -139,7 +139,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentBuilder</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -201,7 +201,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentMiner</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -262,7 +262,7 @@
     </requiredWorkTypes>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentKitchenhand</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -322,7 +322,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentButcher</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -384,7 +384,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentFarmer</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -448,7 +448,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentHerder</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -510,7 +510,7 @@
     </requiredWorkTypes>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentSmith</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -569,7 +569,7 @@
     </requiredWorkTypes>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentTailor</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -628,7 +628,7 @@
     </requiredWorkTypes>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentArtist</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -687,7 +687,7 @@
     </requiredWorkTypes>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentPhysician</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -751,7 +751,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentTrader</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -813,7 +813,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentScholar</defName>
     <commonality>8</commonality>
     <degreeDatas>
@@ -875,7 +875,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentGroundskeeper</defName>
     <commonality>6</commonality>
     <degreeDatas>
@@ -935,7 +935,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentCopycat</defName>
     <commonality>3</commonality>
     <degreeDatas>

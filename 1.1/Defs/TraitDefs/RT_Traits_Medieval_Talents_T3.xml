@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentAdventurer</defName>
     <commonality>3</commonality>
     <degreeDatas>
@@ -73,7 +73,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentArchitect</defName>
     <commonality>2</commonality>
     <degreeDatas>
@@ -143,7 +143,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentChef</defName>
     <commonality>2</commonality>
     <degreeDatas>
@@ -208,7 +208,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentSurgeon</defName>
     <commonality>2</commonality>
     <degreeDatas>
@@ -273,7 +273,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentPhilosopher</defName>
     <commonality>2</commonality>
     <degreeDatas>

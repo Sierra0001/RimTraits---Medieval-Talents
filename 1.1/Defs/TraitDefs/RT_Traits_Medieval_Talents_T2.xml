@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentWeaponsMaster</defName>
     <commonality>5</commonality>
     <degreeDatas>
@@ -70,7 +70,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentHunter</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -140,7 +140,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentEngineer</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -207,7 +207,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentCook</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -272,7 +272,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentHerbalist</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -344,7 +344,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentArmourer</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -407,7 +407,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentFletcher</defName>
     <commonality>4</commonality>
     <degreeDatas>
@@ -477,7 +477,7 @@
     </requiredWorkTags>
   </TraitDef>
 
-  <TraitDef>
+  <TraitDef ParentName="RimTraitBase">
     <defName>TalentVeterinarian</defName>
     <commonality>4</commonality>
     <degreeDatas>
