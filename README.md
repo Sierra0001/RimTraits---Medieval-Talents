@@ -20,7 +20,7 @@ Balance feedbacks re:balance is appreciated, please do however bear in mind that
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/tree/1.2)
+- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
 
