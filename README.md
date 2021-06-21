@@ -8,7 +8,7 @@ You could really love doing something but you could still suck at it. And likewi
 
 ### Balance
 
-Balance feedbacks re:balance is appreciated, please do however bear in mind that this mod is balanced around larger colonies (35-80 colonists) that are limited to Medieval-level technologies.
+Balance feedbacks re: balance is appreciated, please do however bear in mind that this mod is balanced around larger colonies (35-80 colonists) that are limited to Medieval-level technologies.
 
 ### Features
 
