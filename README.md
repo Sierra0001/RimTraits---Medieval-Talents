@@ -32,6 +32,6 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 
 - Change: This mod no longer requires De-generalize Work as a mod pre-requisite.
 - Change: RimWorld 1.0 is no longer supported.
-- Change: defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advanced warnings to make local copies anyway.)
+- Change: defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advance warnings to make local copies anyway.)
 - Fix: All pawns should now be guaranteed to spawn with 1 talent.
 - Buff: All pawns now have a reduced Food/Rest/Recreation need decay.
