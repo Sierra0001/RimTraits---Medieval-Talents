@@ -16,7 +16,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Compatability
 
-- Save Game Compatible (Only newly generated pawns will receive talent)
+- Save Game Compatible (Only newly generated pawns will receive talent, can be "fixed" by using Character Editor)
 
 ### Links
 
