@@ -1,4 +1,4 @@
-# RimTraits---Medieval-Talents
+# RimTraits - Medieval-Talents
 
 Adds 34 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
 
@@ -14,13 +14,13 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 - Every pawn will spawn with a talent along with a set of stats that improves their survivability in a medieval world.
 
-### Compatability
+### Compatibility
 
 - Save Game Compatible (Only newly generated pawns will receive talent, can be "fixed" by using Character Editor)
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
+- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/releases/tag/v2.0b)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
 
