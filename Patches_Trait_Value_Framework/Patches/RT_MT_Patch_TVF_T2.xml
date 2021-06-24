@@ -8,7 +8,7 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentWeaponsMaster"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentWeaponsMaster"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -19,7 +19,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentHunter"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentHunter"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -30,7 +30,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentEngineer"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentEngineer"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -41,7 +41,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentCook"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentCook"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -52,7 +52,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentHerbalist"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentHerbalist"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -63,7 +63,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentArmourer"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentArmourer"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -74,7 +74,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentFletcher"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentFletcher"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -85,7 +85,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentVeterinarian"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentVeterinarian"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>

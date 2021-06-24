@@ -8,7 +8,7 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentBowman"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentBowman"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -19,7 +19,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentSwordsman"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentSwordsman"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -30,7 +30,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentBuilder"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentBuilder"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -41,7 +41,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentMiner"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentMiner"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -52,7 +52,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentKitchenhand"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentKitchenhand"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -63,7 +63,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentButcher"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentButcher"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -74,7 +74,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentFarmer"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentFarmer"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -85,7 +85,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentHerder"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentHerder"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -96,7 +96,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentSmith"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentSmith"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -107,7 +107,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentTailor"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentTailor"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -118,7 +118,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentArtist"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentArtist"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -129,7 +129,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentPhysician"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentPhysician"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -140,7 +140,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentTrader"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentTrader"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -151,7 +151,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentScholar"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentScholar"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -162,7 +162,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentGroundskeeper"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentGroundskeeper"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -173,7 +173,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentCopycat"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentCopycat"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>

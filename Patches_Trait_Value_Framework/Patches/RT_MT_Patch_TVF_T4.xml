@@ -8,7 +8,7 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentScout"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentScout"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -19,7 +19,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentRecruiter"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentRecruiter"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
@@ -30,7 +30,7 @@
         </li>
 
         <li Class="PatchOperationAddModExtension">
-          <xpath>*/TraitDef[defName="TalentJackOfAllTrades"]</xpath>
+          <xpath>*/TraitDef[defName="RT_TalentJackOfAllTrades"]</xpath>
           <value>
             <li Class="SyrTraitValue.TraitValueExtension">
               <traitValues>
