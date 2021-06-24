@@ -3,6 +3,7 @@
 
 	<StatDef>
 		<category>BasicsPawn</category>
+		<toStringStyle>FloatTwo</toStringStyle>
 		<defName>RTMT_FoodNeedDecay</defName>
 		<label>food need decay</label>
 		<description>The rate of which food need will decay. For reference: x50 will decay at half the vanilla rate.</description>
@@ -10,6 +11,7 @@
 
 	<StatDef>
 		<category>BasicsPawn</category>
+		<toStringStyle>FloatTwo</toStringStyle>
 		<defName>RTMT_RestNeed_Decay</defName>
 		<label>rest need decay</label>
 		<description>The rate of which rest need will decay. For reference: x50 will decay at half the vanilla rate.</description>
@@ -17,6 +19,7 @@
 
 	<StatDef>
 		<category>BasicsPawn</category>
+		<toStringStyle>FloatTwo</toStringStyle>
 		<defName>RTMT_RecreationNeed_Decay</defName>
 		<label>recreation need decay</label>
 		<description>The rate of which recreation need will decay. For reference: x50 will decay at half the vanilla rate.</description>
