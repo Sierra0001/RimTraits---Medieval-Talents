@@ -35,3 +35,4 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 - Change: defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advance warnings to make local copies anyway.)
 - Fix: All pawns should now be guaranteed to spawn with 1 talent.
 - Buff: All pawns now have a reduced Food/Rest/Recreation need decay.
+- Nerf: Moderate nerf to Mood Buff across the board.
