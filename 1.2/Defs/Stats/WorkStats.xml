@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 	<StatDef Name="MTStat" Abstract="True">
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
@@ -21,7 +22,7 @@
 		</capacityFactors>
 		<displayPriorityInCategory>4999</displayPriorityInCategory>
 	</StatDef>
-	
+
 	<StatDef ParentName="MTStat">
 		<defName>SculptingSpeed</defName>
 		<label>sculpting speed</label>
@@ -49,4 +50,5 @@
 		</statFactors>
 		<capacityFactors Inherit="False"/>
 	</StatDef>
+
 </Defs>
