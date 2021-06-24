@@ -2,7 +2,7 @@
 <Defs>
 
   <TraitDef ParentName="RimTraitBase">
-    <defName>TalentHero</defName>
+    <defName>RT_TalentHero</defName>
     <commonality>1</commonality>
     <degreeDatas>
       <li>
@@ -37,39 +37,39 @@
       </li>
     </degreeDatas>
     <conflictingTraits>
-      <li>TalentBowman</li>
-      <li>TalentSwordsman</li>
-      <li>TalentBuilder</li>
-      <li>TalentMiner</li>
-      <li>TalentKitchenhand</li>
-      <li>TalentButcher</li>
-      <li>TalentFarmer</li>
-      <li>TalentHerder</li>
-      <li>TalentSmith</li>
-      <li>TalentTailor</li>
-      <li>TalentArtist</li>
-      <li>TalentPhysician</li>
-      <li>TalentTrader</li>
-      <li>TalentScholar</li>
-      <li>TalentGroundskeeper</li>
-      <li>TalentCopycat</li>
-      <li>TalentWeaponsMaster</li>
-      <li>TalentHunter</li>
-      <li>TalentEngineer</li>
-      <li>TalentCook</li>
-      <li>TalentHerbalist</li>
-      <li>TalentArmourer</li>
-      <li>TalentFletcher</li>
-      <li>TalentVeterinarian</li>
-      <li>TalentAdventurer</li>
-      <li>TalentArchitect</li>
-      <li>TalentChef</li>
-      <li>TalentSurgeon</li>
-      <li>TalentPhilosopher</li>
-      <li>TalentScout</li>
-      <li>TalentRecruiter</li>
-      <li>TalentJackOfAllTrades</li>
-      <li>TalentNoTalent</li>
+      <li>RT_TalentBowman</li>
+      <li>RT_TalentSwordsman</li>
+      <li>RT_TalentBuilder</li>
+      <li>RT_TalentMiner</li>
+      <li>RT_TalentKitchenhand</li>
+      <li>RT_TalentButcher</li>
+      <li>RT_TalentFarmer</li>
+      <li>RT_TalentHerder</li>
+      <li>RT_TalentSmith</li>
+      <li>RT_TalentTailor</li>
+      <li>RT_TalentArtist</li>
+      <li>RT_TalentPhysician</li>
+      <li>RT_TalentTrader</li>
+      <li>RT_TalentScholar</li>
+      <li>RT_TalentGroundskeeper</li>
+      <li>RT_TalentCopycat</li>
+      <li>RT_TalentWeaponsMaster</li>
+      <li>RT_TalentHunter</li>
+      <li>RT_TalentEngineer</li>
+      <li>RT_TalentCook</li>
+      <li>RT_TalentHerbalist</li>
+      <li>RT_TalentArmourer</li>
+      <li>RT_TalentFletcher</li>
+      <li>RT_TalentVeterinarian</li>
+      <li>RT_TalentAdventurer</li>
+      <li>RT_TalentArchitect</li>
+      <li>RT_TalentChef</li>
+      <li>RT_TalentSurgeon</li>
+      <li>RT_TalentPhilosopher</li>
+      <li>RT_TalentScout</li>
+      <li>RT_TalentRecruiter</li>
+      <li>RT_TalentJackOfAllTrades</li>
+      <li>RT_TalentNoTalent</li>
     </conflictingTraits>
     <requiredWorkTags>
       <li>Violent</li>
