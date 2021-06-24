@@ -26,4 +26,4 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Credits
 
-Taranchuk for his C# work to enable guaranteed trait spawning and new StatDef for Food/Rest/Recreation need decay.
+Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.1, enable guaranteed trait spawning and add new StatDef for Food/Rest/Recreation need decay.
