@@ -1,4 +1,4 @@
-# RimTraits - Medieval-Talents
+# RimTraits - Medieval Talents
 
 Adds 34 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
 
