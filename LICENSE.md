@@ -7,11 +7,11 @@ To view a copy of the license, visit:
 
 
 Simply put, you are allowed to:
-Modify material for self use.
+- Modify material for self use.
 
 You are NOT allowed to:
-Distribute modified material.
-Use material for commercial purposes.
+- Distribute modified material.
+- Use material for commercial purposes.
 
 
 Note: Exceptions may be granted on a limited basis.
