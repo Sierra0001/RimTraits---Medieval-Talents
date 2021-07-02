@@ -8,7 +8,7 @@ You could really love doing something but you could still suck at it. And likewi
 
 ### Features
 
-- Every pawn will spawn with a talent along with a set of stats that improves their survivability in a medieval world.
+- 34 Traits (Guaranteed spawn - 1 per pawn)
 
 ### Balance
 
