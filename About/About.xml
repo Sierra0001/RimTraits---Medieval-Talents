@@ -15,7 +15,7 @@
 [h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url] to change your Vanilla Trait Colours to match this mod![/h1]
 
 
-This Medieval trait mod adds 34 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
+This Medieval trait mod adds 35 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
 
 This mod operates on the premise that skills don't equate to talent, and talent doesn’t necessarily translate to passion.
 
@@ -24,7 +24,7 @@ You could really love doing something but you could still suck at it. And likewi
 
 [b]Features:[/b]
 [list]
-[*]34 Traits (Guaranteed spawn - 1 per pawn)
+[*]35 Traits (Guaranteed spawn - 1 per pawn)
 [/list]
 
 
@@ -69,6 +69,7 @@ Balance feedbacks are appreciated, please do however bear in mind that this mod 
 [*]Fix: All pawns should now be guaranteed to spawn with 1 talent.
 [*]Buff: All pawns now have a reduced Food/Rest/Recreation need decay.
 [*]Nerf: Moderate nerf to Mood Buff across the board.
+[*]New: A new trait, Talent: Herald has been added.
 [/list]
 	</description>
 </ModMetaData>

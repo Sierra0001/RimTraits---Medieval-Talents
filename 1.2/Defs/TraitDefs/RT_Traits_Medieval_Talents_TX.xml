@@ -55,6 +55,7 @@
       <li>RT_TalentRecruiter</li>
       <li>RT_TalentJackOfAllTrades</li>
       <li>RT_TalentHero</li>
+      <li>RT_TalentHerald</li>
     </conflictingTraits>
   </TraitDef>
 

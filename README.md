@@ -1,6 +1,6 @@
 # RimTraits - Medieval Talents
 
-Adds 34 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
+Adds 35 traits defining a pawn's talent, they are mutually exclusive to each other with increasing rarity for the higher tier traits.
 
 This mod operates on the premise that passion doesn’t equal to talent, and talent doesn’t necessarily translate to passion.
 
@@ -8,7 +8,7 @@ You could really love doing something but you could still suck at it. And likewi
 
 ### Features
 
-- 34 Traits (Guaranteed spawn - 1 per pawn)
+- 35 Traits (Guaranteed spawn - 1 per pawn)
 
 ### Balance
 
@@ -20,7 +20,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/releases/tag/v2.0b)
+- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/releases/tag/v2.0)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
 
@@ -36,3 +36,4 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 - Fix: All pawns should now be guaranteed to spawn with 1 talent.
 - Buff: All pawns now have a reduced Food/Rest/Recreation need decay.
 - Nerf: Moderate nerf to Mood Buff across the board.
+- New: A new trait, Talent: Herald has been added.
