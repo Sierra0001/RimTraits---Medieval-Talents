@@ -61,15 +61,15 @@ Balance feedbacks are appreciated, please do however bear in mind that this mod 
 
 
 [h1]Recent Changes:[/h1]
-[b]v2.0:[/b]
+[b]v2.0[/b]
 [list]
-[*]Change: This mod no longer requires De-generalize Work as a mod pre-requisite.
-[*]Change: RimWorld 1.0 is no longer supported.
-[*]Change: defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advance warnings to make local copies anyway.)
-[*]Fix: All pawns should now be guaranteed to spawn with 1 talent.
-[*]Buff: All pawns now have a reduced Food/Rest/Recreation need decay.
-[*]Nerf: Moderate nerf to Mood Buff across the board.
-[*]New: A new trait, Talent: Herald has been added.
+[*][Change] This mod no longer requires De-generalize Work as a mod pre-requisite.
+[*][Change] RimWorld 1.0 is no longer supported.
+[*][Change] defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advance warnings to make local copies anyway.)
+[*][Fix] All pawns should now be guaranteed to spawn with 1 talent.
+[*][Buff] All pawns now have a reduced Food/Rest/Recreation need decay.
+[*][Nerf] Moderate nerf to Mood Buff across the board.
+[*][New] A new trait, Talent: Herald has been added.
 [/list]
 	</description>
 </ModMetaData>
