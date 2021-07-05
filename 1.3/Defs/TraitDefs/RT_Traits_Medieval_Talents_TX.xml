@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef ParentName="RimTraitBase">
+    <defName>RT_TalentNoTalent</defName>
+    <commonality>35</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#ff6fff&gt;No Talent&lt;/color&gt;</label>
+        <description>[PAWN_nameDef] has no talent. None whatsoever</description>
+        <statOffsets>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <PainShockThreshold>0.05</PainShockThreshold>
+          <ComfyTemperatureMax>3</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <RTMT_FoodNeedDecay>0.95</RTMT_FoodNeedDecay>
+  		    <RTMT_RestNeed_Decay>0.95</RTMT_RestNeed_Decay>
+  		    <RTMT_RecreationNeed_Decay>0.95</RTMT_RecreationNeed_Decay>
+        </statFactors>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>RT_TalentBowman</li>
+      <li>RT_TalentSwordsman</li>
+      <li>RT_TalentBuilder</li>
+      <li>RT_TalentMiner</li>
+      <li>RT_TalentKitchenhand</li>
+      <li>RT_TalentButcher</li>
+      <li>RT_TalentFarmer</li>
+      <li>RT_TalentHerder</li>
+      <li>RT_TalentSmith</li>
+      <li>RT_TalentTailor</li>
+      <li>RT_TalentArtist</li>
+      <li>RT_TalentPhysician</li>
+      <li>RT_TalentTrader</li>
+      <li>RT_TalentScholar</li>
+      <li>RT_TalentGroundskeeper</li>
+      <li>RT_TalentCopycat</li>
+      <li>RT_TalentWeaponsMaster</li>
+      <li>RT_TalentHunter</li>
+      <li>RT_TalentEngineer</li>
+      <li>RT_TalentCook</li>
+      <li>RT_TalentHerbalist</li>
+      <li>RT_TalentArmourer</li>
+      <li>RT_TalentFletcher</li>
+      <li>RT_TalentVeterinarian</li>
+      <li>RT_TalentAdventurer</li>
+      <li>RT_TalentArchitect</li>
+      <li>RT_TalentChef</li>
+      <li>RT_TalentSurgeon</li>
+      <li>RT_TalentPhilosopher</li>
+      <li>RT_TalentScout</li>
+      <li>RT_TalentRecruiter</li>
+      <li>RT_TalentJackOfAllTrades</li>
+      <li>RT_TalentHero</li>
+      <li>RT_TalentHerald</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

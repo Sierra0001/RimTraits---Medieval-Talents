@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MoodOffsetBowman</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentBowman</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Bowman</label>
+        <description>Natural bonus from 'Bowman' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSwordsman</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentSwordsman</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Swordsman</label>
+        <description>Natural bonus from 'Swordsman' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetBuilder</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentBuilder</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Builder</label>
+        <description>Natural bonus from 'Builder' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetMiner</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentMiner</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Miner</label>
+        <description>Natural bonus from 'Miner' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetKitchenhand</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentKitchenhand</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Kitchenhand</label>
+        <description>Natural bonus from 'Kitchenhand' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetButcher</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentButcher</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Butcher</label>
+        <description>Natural bonus from 'Butcher' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetFarmer</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentFarmer</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Farmer</label>
+        <description>Natural bonus from 'Farmer' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetHerder</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentHerder</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Herder</label>
+        <description>Natural bonus from 'Herder' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSmith</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentSmith</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Smith</label>
+        <description>Natural bonus from 'Smith' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetTailor</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentTailor</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Tailor</label>
+        <description>Natural bonus from 'Tailor' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetArtist</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentArtist</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Artist</label>
+        <description>Natural bonus from 'Artist' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetPhysician</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentPhysician</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Physician</label>
+        <description>Natural bonus from 'Physician' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetTrader</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentTrader</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Trader</label>
+        <description>Natural bonus from 'Trader' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetScholar</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentScholar</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Scholar</label>
+        <description>Natural bonus from 'Scholar' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetGroundskeeper</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentGroundskeeper</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Groundskeeper</label>
+        <description>Natural bonus from 'Groundskeeper' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetCopycat</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentCopycat</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Copycat</label>
+        <description>Natural bonus from 'Copycat' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetWeaponsMaster</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentWeaponsMaster</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Weapons Master</label>
+        <description>Natural bonus from 'Weapons Master' trait.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetHunter</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentHunter</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Hunter</label>
+        <description>Natural bonus from 'Hunter' trait.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetEngineer</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentEngineer</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Engineer</label>
+        <description>Natural bonus from 'Engineer' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetCook</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentCook</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Cook</label>
+        <description>Natural bonus from 'Cook' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetHerbalist</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentHerbalist</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Herbalist</label>
+        <description>Natural bonus from 'Herbalist' trait.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetArmourer</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentArmourer</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Armourer</label>
+        <description>Natural bonus from 'Armourer' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetAdventurer</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentAdventurer</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Adventurer</label>
+        <description>Natural bonus from 'Adventurer' trait.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetArchitect</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentArchitect</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Architect</label>
+        <description>Natural bonus from 'Architect' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetChef</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentChef</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Chef</label>
+        <description>Natural bonus from 'Chef' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetSurgeon</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentSurgeon</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Surgeon</label>
+        <description>Natural bonus from 'Surgeon' trait.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetPhilosopher</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentPhilosopher</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Philosopher</label>
+        <description>Natural bonus from 'Philosopher' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetScout</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentScout</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Scout</label>
+        <description>Natural bonus from 'Scout' trait.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetRecruiter</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentRecruiter</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Recruiter</label>
+        <description>Natural bonus from 'Recruiter' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetJackOfAllTrades</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentJackOfAllTrades</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Jack-of-all-trades</label>
+        <description>Natural bonus from 'Jack-of-all-trades' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetHero</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentHero</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Hero</label>
+        <description>Natural bonus from 'Hero' trait.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetNoTalent</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>TalentNoTalent</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>No Talent</label>
+        <description>Natural bonus from 'No Talent' trait.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
