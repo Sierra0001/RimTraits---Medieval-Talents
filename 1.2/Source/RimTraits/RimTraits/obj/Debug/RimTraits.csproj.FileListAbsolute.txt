@@ -1,8 +1,0 @@
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\bin\Debug\RimTraits.dll
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\bin\Debug\RimTraits.pdb
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\bin\Debug\0Harmony.dll
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\obj\Debug\RimTraits.csproj.AssemblyReference.cache
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\obj\Debug\RimTraits.csproj.CoreCompileInputs.cache
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\obj\Debug\RimTraits.csproj.CopyComplete
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Source\RimTraits\RimTraits\obj\Debug\RimTraits.dll
-c:\Games\Rimworld\Mods\RimTraits---Medieval-Talents\1.1\Assemblies\RimTraits.dll
