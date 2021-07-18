@@ -20,11 +20,14 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/releases/tag/v2.0-rc.3)
+- [Current Version](https://github.com/Sierra0003/RimTraits---Medieval-Talents/releases/tag/v2.0)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0003/RimTraits---Medieval-Talents)
 
 ### Credits
+
+
+SirLalaPyon for his amazing, high-quality vanilla styled art.
 
 Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.1, enable guaranteed trait spawning, and add new StatDef for Food/Rest/Recreation need decay.
 
