@@ -43,4 +43,4 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 - [New] A new trait, Talent: Herald has been added. (v2.0)
 
 - [Fix] Herald now has associated Mood buff. (v2.0.1)
-- [Nerf] Moderate nerf to Mood Buff across the board. (v2.0.1)
+- [Nerf] Minor nerf to Mood Buff across the board. (v2.0.1)
