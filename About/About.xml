@@ -24,7 +24,7 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v2.0[/h1]
+[h1]Mod Version: v2.0.1[/h1]
 
 
 [h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url] to change your Vanilla Trait Colors to match this mod![/h1]
@@ -89,6 +89,12 @@ Balance feedbacks are appreciated, please do however bear in mind that this mod 
 [*][Buff] All pawns now have a reduced Food/Rest/Recreation need decay.
 [*][Nerf] Moderate nerf to Mood Buff across the board.
 [*][New] A new trait, Talent: Herald has been added.
+[/list]
+
+[b]v2.0.1[/b]
+[list]
+[*][Fix] Herald now has associated Mood buff.
+[*][Nerf] Moderate nerf to Mood Buff across the board.
 [/list]
 	</description>
 </ModMetaData>

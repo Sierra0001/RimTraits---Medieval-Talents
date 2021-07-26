@@ -20,7 +20,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0)
+- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0001/RimTraits---Medieval-Talents)
 
@@ -41,3 +41,6 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 - [Buff] All pawns now have a reduced Food/Rest/Recreation need decay. (v2.0)
 - [Nerf] Moderate nerf to Mood Buff across the board. (v2.0)
 - [New] A new trait, Talent: Herald has been added. (v2.0)
+
+- [Fix] Herald now has associated Mood buff. (v2.0.1)
+- [Nerf] Moderate nerf to Mood Buff across the board. (v2.0.1)

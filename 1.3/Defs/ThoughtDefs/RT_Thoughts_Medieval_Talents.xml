@@ -12,7 +12,7 @@
       <li>
         <label>Talent: Bowman</label>
         <description>Natural bonus from 'Bowman' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -28,7 +28,7 @@
       <li>
         <label>Talent: Swordsman</label>
         <description>Natural bonus from 'Swordsman' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -44,7 +44,7 @@
       <li>
         <label>Talent: Builder</label>
         <description>Natural bonus from 'Builder' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -60,7 +60,7 @@
       <li>
         <label>Talent: Miner</label>
         <description>Natural bonus from 'Miner' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -76,7 +76,7 @@
       <li>
         <label>Talent: Kitchenhand</label>
         <description>Natural bonus from 'Kitchenhand' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -92,7 +92,7 @@
       <li>
         <label>Talent: Butcher</label>
         <description>Natural bonus from 'Butcher' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -108,7 +108,7 @@
       <li>
         <label>Talent: Farmer</label>
         <description>Natural bonus from 'Farmer' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -124,7 +124,7 @@
       <li>
         <label>Talent: Herder</label>
         <description>Natural bonus from 'Herder' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -140,7 +140,7 @@
       <li>
         <label>Talent: Smith</label>
         <description>Natural bonus from 'Smith' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -156,7 +156,7 @@
       <li>
         <label>Talent: Tailor</label>
         <description>Natural bonus from 'Tailor' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -172,7 +172,7 @@
       <li>
         <label>Talent: Artist</label>
         <description>Natural bonus from 'Artist' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -188,7 +188,7 @@
       <li>
         <label>Talent: Physician</label>
         <description>Natural bonus from 'Physician' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -204,7 +204,7 @@
       <li>
         <label>Talent: Trader</label>
         <description>Natural bonus from 'Trader' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -220,7 +220,7 @@
       <li>
         <label>Talent: Scholar</label>
         <description>Natural bonus from 'Scholar' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -236,7 +236,7 @@
       <li>
         <label>Talent: Groundskeeper</label>
         <description>Natural bonus from 'Groundskeeper' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -252,7 +252,7 @@
       <li>
         <label>Talent: Copycat</label>
         <description>Natural bonus from 'Copycat' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -268,7 +268,7 @@
       <li>
         <label>Talent: Weapons Master</label>
         <description>Natural bonus from 'Weapons Master' trait.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>7</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -284,7 +284,7 @@
       <li>
         <label>Talent: Hunter</label>
         <description>Natural bonus from 'Hunter' trait.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>7</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -300,7 +300,7 @@
       <li>
         <label>Talent: Engineer</label>
         <description>Natural bonus from 'Engineer' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -316,7 +316,7 @@
       <li>
         <label>Talent: Cook</label>
         <description>Natural bonus from 'Cook' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -332,7 +332,7 @@
       <li>
         <label>Talent: Herbalist</label>
         <description>Natural bonus from 'Herbalist' trait.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>7</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -348,7 +348,7 @@
       <li>
         <label>Talent: Armourer</label>
         <description>Natural bonus from 'Armourer' trait.</description>
-        <baseMoodEffect>6</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -364,7 +364,7 @@
       <li>
         <label>Talent: Fletcher</label>
         <description>Natural bonus from 'Fletcher' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -380,7 +380,7 @@
       <li>
         <label>Talent: Veterinarian</label>
         <description>Natural bonus from 'Veterinarian' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -396,7 +396,7 @@
       <li>
         <label>Talent: Adventurer</label>
         <description>Natural bonus from 'Adventurer' trait.</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <baseMoodEffect>9</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -412,7 +412,7 @@
       <li>
         <label>Talent: Architect</label>
         <description>Natural bonus from 'Architect' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -428,7 +428,7 @@
       <li>
         <label>Talent: Chef</label>
         <description>Natural bonus from 'Chef' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -444,7 +444,7 @@
       <li>
         <label>Talent: Surgeon</label>
         <description>Natural bonus from 'Surgeon' trait.</description>
-        <baseMoodEffect>12</baseMoodEffect>
+        <baseMoodEffect>9</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -460,7 +460,7 @@
       <li>
         <label>Talent: Philosopher</label>
         <description>Natural bonus from 'Philosopher' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -476,7 +476,7 @@
       <li>
         <label>Talent: Scout</label>
         <description>Natural bonus from 'Scout' trait.</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <baseMoodEffect>11</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -492,7 +492,7 @@
       <li>
         <label>Talent: Recruiter</label>
         <description>Natural bonus from 'Recruiter' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>6</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -508,7 +508,7 @@
       <li>
         <label>Talent: Jack-of-all-trades</label>
         <description>Natural bonus from 'Jack-of-all-trades' trait.</description>
-        <baseMoodEffect>8</baseMoodEffect>
+        <baseMoodEffect>6</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -524,7 +524,23 @@
       <li>
         <label>Talent: Hero</label>
         <description>Natural bonus from 'Hero' trait.</description>
-        <baseMoodEffect>16</baseMoodEffect>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MoodOffsetHerald</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>RT_TalentHerald</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Herald</label>
+        <description>Natural bonus from 'Herald' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -540,7 +556,7 @@
       <li>
         <label>No Talent</label>
         <description>Natural bonus from 'No Talent' trait.</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
