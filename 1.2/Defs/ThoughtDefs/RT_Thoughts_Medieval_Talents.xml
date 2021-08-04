@@ -530,6 +530,22 @@
   </ThoughtDef>
 
   <ThoughtDef>
+    <defName>MoodOffsetHerald</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>RT_TalentHerald</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>Talent: Herald</label>
+        <description>Natural bonus from 'Herald' trait.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
     <defName>MoodOffsetNoTalent</defName>
     <workerClass>ThoughtWorker_AlwaysActive</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
