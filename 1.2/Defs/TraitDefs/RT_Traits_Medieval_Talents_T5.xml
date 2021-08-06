@@ -7,7 +7,7 @@
     <degreeDatas>
       <li>
         <label>&lt;color=#e0115f&gt;Talent: Hero&lt;/color&gt;</label>
-        <description>As long as [PAWN_nameDef] still draws breath, isn't one threat the the colony couldn't overcome!</description>
+        <description>As long as [PAWN_nameDef] still draws breath, there isn't one threat that the colony can't overcome!</description>
         <statOffsets>
           <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.25</AimingDelayFactor>

@@ -20,7 +20,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.1)
+- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.2)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0001/RimTraits---Medieval-Talents)
 
@@ -44,3 +44,5 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 
 - [Fix] Herald now has associated Mood buff. (v2.0.1)
 - [Nerf] Minor nerf to Mood Buff across the board. (v2.0.1)
+
+- [Fix] Corrected typo for Talent: Hero. (v2.0.2)
