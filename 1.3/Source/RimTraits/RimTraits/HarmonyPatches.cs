@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine.Diagnostics;
 using Verse;
 
 namespace RimTraits
@@ -14,7 +15,9 @@ namespace RimTraits
     [HarmonyPatch(typeof(PawnGenerator), "GenerateTraits")]
     public static class GenerateTraits_Patch
     {
-        public static void Prefix(out List<TraitDef> __state)
+        public static List<TraitDef> __state = new List<TraitDef>();
+        [HarmonyPriority(Priority.First)]
+        public static void Prefix()
         {
             __state = DefDatabase<TraitDef>.AllDefs.Where(x => x.GetModExtension<TraitExtension>()?.mustSpawn ?? false).ToList();
             foreach (var def in __state)
@@ -35,13 +38,16 @@ namespace RimTraits
         }
 
         [HarmonyPriority(Priority.Last)]
-        public static void Postfix(Pawn pawn, PawnGenerationRequest request, List<TraitDef> __state)
+        public static void Postfix(Pawn pawn, PawnGenerationRequest request)
         {
             if (__state.Any())
             {
                 foreach (var def in __state)
                 {
-                    DefDatabase<TraitDef>.Add(def);
+                    if (!DefDatabase<TraitDef>.AllDefsListForReading.Any(x => x == def))
+                    {
+                        DefDatabase<TraitDef>.Add(def);
+                    }
                 }
                 var count = 0;
                 while (count < 999)
@@ -65,6 +71,26 @@ namespace RimTraits
                     }
                 }
             }
+        }
+
+        private static Exception Finalizer(Exception __exception)
+        {
+            if (__exception != null)
+            {
+                if (__state.Any())
+                {
+                    foreach (var def in __state)
+                    {
+                        if (!DefDatabase<TraitDef>.AllDefsListForReading.Any(x => x == def))
+                        {
+                            DefDatabase<TraitDef>.Add(def);
+                        }
+                    }
+                }
+
+                return __exception;
+            }
+            return null;
         }
     }
 
