@@ -20,7 +20,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.2)
+- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.3)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0001/RimTraits---Medieval-Talents)
 
@@ -33,16 +33,4 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v2.0)
-- [Change] This mod no longer requires De-generalize Work as a mod pre-requisite. (v2.0)
-- [Change] Uncommon Traits now uses a lighter colour for clarity. (v2.0)
-- [Change] defName for all traits have been updated, existing saves will require re-insertion of Talents via Character Editor. (You were given advance warnings to make local copies anyway.) (v2.0)
-- [Fix] All pawns should now be guaranteed to spawn with 1 talent. (v2.0)
-- [Buff] All pawns now have a reduced Food/Rest/Recreation need decay. (v2.0)
-- [Nerf] Moderate nerf to Mood Buff across the board. (v2.0)
-- [New] A new trait, Talent: Herald has been added. (v2.0)
-
-- [Fix] Herald now has associated Mood buff. (v2.0.1)
-- [Nerf] Minor nerf to Mood Buff across the board. (v2.0.1)
-
-- [Fix] Corrected typo for Talent: Hero. (v2.0.2)
+- [Fix] Added a fail-safe mechanism to mitigate a rare bug that could cause traits to 'disappear' mid-game.
