@@ -11,16 +11,23 @@ using Verse;
 
 namespace RimTraits
 {
+    [StaticConstructorOnStartup]
+    public static class TraitStorage
+    {
+        public static List<TraitDef> traits = new List<TraitDef>();
+        static TraitStorage()
+        {
+            traits = DefDatabase<TraitDef>.AllDefs.Where(x => x.GetModExtension<TraitExtension>()?.mustSpawn ?? false).ToList();
+        }
+    }
 
     [HarmonyPatch(typeof(PawnGenerator), "GenerateTraits")]
     public static class GenerateTraits_Patch
     {
-        public static List<TraitDef> __state = new List<TraitDef>();
         [HarmonyPriority(Priority.First)]
         public static void Prefix()
         {
-            __state = DefDatabase<TraitDef>.AllDefs.Where(x => x.GetModExtension<TraitExtension>()?.mustSpawn ?? false).ToList();
-            foreach (var def in __state)
+            foreach (var def in TraitStorage.traits)
             {
                 try
                 {
@@ -40,9 +47,9 @@ namespace RimTraits
         [HarmonyPriority(Priority.Last)]
         public static void Postfix(Pawn pawn, PawnGenerationRequest request)
         {
-            if (__state.Any())
+            if (TraitStorage.traits.Any())
             {
-                foreach (var def in __state)
+                foreach (var def in TraitStorage.traits)
                 {
                     if (!DefDatabase<TraitDef>.AllDefsListForReading.Any(x => x == def))
                     {
@@ -53,7 +60,7 @@ namespace RimTraits
                 while (count < 999)
                 {
                     count++;
-                    TraitDef newTraitDef = __state.RandomElementByWeight((TraitDef tr) => tr.GetGenderSpecificCommonality(pawn.gender));
+                    TraitDef newTraitDef = TraitStorage.traits.RandomElementByWeight((TraitDef tr) => tr.GetGenderSpecificCommonality(pawn.gender));
                     if (pawn.story.traits.HasTrait(newTraitDef) || (request.KindDef.disallowedTraits != null && request.KindDef.disallowedTraits.Contains(newTraitDef)) ||
                         (request.KindDef.requiredWorkTags != 0 && (newTraitDef.disabledWorkTags & request.KindDef.requiredWorkTags) != 0) || (newTraitDef == TraitDefOf.Gay && (!request.AllowGay || LovePartnerRelationUtility.HasAnyLovePartnerOfTheOppositeGender(pawn) || LovePartnerRelationUtility.HasAnyExLovePartnerOfTheOppositeGender(pawn))) || (request.ProhibitedTraits != null && request.ProhibitedTraits.Contains(newTraitDef)) || (request.Faction != null && Faction.OfPlayerSilentFail != null && request.Faction.HostileTo(Faction.OfPlayer) && !newTraitDef.allowOnHostileSpawn) || pawn.story.traits.allTraits.Any((Trait tr) => newTraitDef.ConflictsWith(tr)) || (newTraitDef.requiredWorkTypes != null && pawn.OneOfWorkTypesIsDisabled(newTraitDef.requiredWorkTypes)) || pawn.WorkTagIsDisabled(newTraitDef.requiredWorkTags) || (newTraitDef.forcedPassions != null && pawn.workSettings != null && newTraitDef.forcedPassions.Any((SkillDef p) => p.IsDisabled(pawn.story.DisabledWorkTagsBackstoryAndTraits, pawn.GetDisabledWorkTypes(permanentOnly: true)))))
                     {
@@ -77,9 +84,9 @@ namespace RimTraits
         {
             if (__exception != null)
             {
-                if (__state.Any())
+                if (TraitStorage.traits.Any())
                 {
-                    foreach (var def in __state)
+                    foreach (var def in TraitStorage.traits)
                     {
                         if (!DefDatabase<TraitDef>.AllDefsListForReading.Any(x => x == def))
                         {
