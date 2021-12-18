@@ -20,7 +20,7 @@ Balance feedbacks re: balance is appreciated, please do however bear in mind tha
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.4)
+- [Current Version](https://github.com/Sierra0001/RimTraits---Medieval-Talents/releases/tag/v2.0.3)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291)
 - [GitHub](https://github.com/Sierra0001/RimTraits---Medieval-Talents)
 
@@ -33,4 +33,4 @@ Taranchuk for his C# work to bring back old StatDef that Tynan removed during 1.
 
 ### Latest Changes
 
-- [Fix] Trait generation has been recoded to hopefully fix an issue where under certain circumstances traits can disappear mid-game.
+- [Fix] Added a fail-safe mechanism to mitigate a rare bug that could cause traits to 'disappear' mid-game.
