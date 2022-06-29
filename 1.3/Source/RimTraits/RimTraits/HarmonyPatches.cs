@@ -59,23 +59,30 @@ namespace RimTraits
                 var count = 0;
                 while (count < 999)
                 {
-                    count++;
-                    TraitDef newTraitDef = TraitStorage.traits.RandomElementByWeight((TraitDef tr) => tr.GetGenderSpecificCommonality(pawn.gender));
-                    if (pawn.story.traits.HasTrait(newTraitDef) || (request.KindDef.disallowedTraits != null && request.KindDef.disallowedTraits.Contains(newTraitDef)) ||
-                        (request.KindDef.requiredWorkTags != 0 && (newTraitDef.disabledWorkTags & request.KindDef.requiredWorkTags) != 0) || (newTraitDef == TraitDefOf.Gay && (!request.AllowGay || LovePartnerRelationUtility.HasAnyLovePartnerOfTheOppositeGender(pawn) || LovePartnerRelationUtility.HasAnyExLovePartnerOfTheOppositeGender(pawn))) || (request.ProhibitedTraits != null && request.ProhibitedTraits.Contains(newTraitDef)) || (request.Faction != null && Faction.OfPlayerSilentFail != null && request.Faction.HostileTo(Faction.OfPlayer) && !newTraitDef.allowOnHostileSpawn) || pawn.story.traits.allTraits.Any((Trait tr) => newTraitDef.ConflictsWith(tr)) || (newTraitDef.requiredWorkTypes != null && pawn.OneOfWorkTypesIsDisabled(newTraitDef.requiredWorkTypes)) || pawn.WorkTagIsDisabled(newTraitDef.requiredWorkTags) || (newTraitDef.forcedPassions != null && pawn.workSettings != null && newTraitDef.forcedPassions.Any((SkillDef p) => p.IsDisabled(pawn.story.DisabledWorkTagsBackstoryAndTraits, pawn.GetDisabledWorkTypes(permanentOnly: true)))))
+                    try
                     {
-                        continue;
-                    }
-                    int degree = PawnGenerator.RandomTraitDegree(newTraitDef);
-                    if (!pawn.story.childhood.DisallowsTrait(newTraitDef, degree) && (pawn.story.adulthood == null || !pawn.story.adulthood.DisallowsTrait(newTraitDef, degree)))
-                    {
-                        Trait trait2 = new Trait(newTraitDef, degree);
-                        if (pawn.mindState == null || pawn.mindState.mentalBreaker == null || !((pawn.mindState.mentalBreaker.BreakThresholdMinor + trait2.OffsetOfStat(StatDefOf.MentalBreakThreshold)) * trait2.MultiplierOfStat(StatDefOf.MentalBreakThreshold) > 0.5f))
+                        count++;
+                        TraitDef newTraitDef = TraitStorage.traits.RandomElementByWeight((TraitDef tr) => tr.GetGenderSpecificCommonality(pawn.gender));
+                        if (pawn.story.traits.HasTrait(newTraitDef) || (request.KindDef.disallowedTraits != null && request.KindDef.disallowedTraits.Contains(newTraitDef)) ||
+                            (request.KindDef.requiredWorkTags != 0 && (newTraitDef.disabledWorkTags & request.KindDef.requiredWorkTags) != 0) || (newTraitDef == TraitDefOf.Gay && (!request.AllowGay || LovePartnerRelationUtility.HasAnyLovePartnerOfTheOppositeGender(pawn) || LovePartnerRelationUtility.HasAnyExLovePartnerOfTheOppositeGender(pawn))) || (request.ProhibitedTraits != null && request.ProhibitedTraits.Contains(newTraitDef)) || (request.Faction != null && Faction.OfPlayerSilentFail != null && request.Faction.HostileTo(Faction.OfPlayer) && !newTraitDef.allowOnHostileSpawn) || pawn.story.traits.allTraits.Any((Trait tr) => newTraitDef.ConflictsWith(tr)) || (newTraitDef.requiredWorkTypes != null && pawn.OneOfWorkTypesIsDisabled(newTraitDef.requiredWorkTypes)) || pawn.WorkTagIsDisabled(newTraitDef.requiredWorkTags) || (newTraitDef.forcedPassions != null && pawn.workSettings != null && newTraitDef.forcedPassions.Any((SkillDef p) => p.IsDisabled(pawn.story.DisabledWorkTagsBackstoryAndTraits, pawn.GetDisabledWorkTypes(permanentOnly: true)))))
                         {
-                            pawn.story.traits.GainTrait(trait2);
-                            break;
+                            continue;
+                        }
+                        int degree = PawnGenerator.RandomTraitDegree(newTraitDef);
+                        if (!pawn.story.childhood.DisallowsTrait(newTraitDef, degree) && (pawn.story.adulthood == null || !pawn.story.adulthood.DisallowsTrait(newTraitDef, degree)))
+                        {
+                            Trait trait2 = new Trait(newTraitDef, degree);
+                            if (pawn.mindState == null || pawn.mindState.mentalBreaker == null || !((pawn.mindState.mentalBreaker.BreakThresholdMinor + trait2.OffsetOfStat(StatDefOf.MentalBreakThreshold)) * trait2.MultiplierOfStat(StatDefOf.MentalBreakThreshold) > 0.5f))
+                            {
+                                pawn.story.traits.GainTrait(trait2);
+                                break;
+                            }
                         }
                     }
+                    catch (Exception ex)
+                    {
+                        Log.Error("Error " + ex);
+                    };
                 }
             }
         }
@@ -94,8 +101,7 @@ namespace RimTraits
                         }
                     }
                 }
-
-                return __exception;
+                Log.Error("Error " + __exception);
             }
             return null;
         }
