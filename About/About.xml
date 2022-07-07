@@ -24,7 +24,7 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v2.0.4[/h1]
+[h1]Mod Version: v2.0.5[/h1]
 
 
 [h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url] to change your Vanilla Trait Colors to match this mod![/h1]
@@ -82,19 +82,14 @@ Balance feedbacks are appreciated, please do however bear in mind that this mod 
 
 
 [h1]Latest Changes:[/h1]
-[b]v2.0.2[/b]
-[list]
-[*][Fix] Corrected typo for Talent: Hero.
-[/list]
-
-[b]v2.0.3[/b]
-[list]
-[*][Fix] Added a fail-safe mechanism to mitigate a rare bug that could cause traits to 'disappear' mid-game.
-[/list]
-
 [b]v2.0.4[/b]
 [list]
 [*][Fix] Trait generation has been recoded to hopefully fix an issue where under certain circumstances traits can disappear mid-game.
+[/list]
+
+[b]v2.0.5[/b]
+[list]
+[*][Fix] Addressed trait generation issues that may affect some people using certain children mods.
 [/list]
 	</description>
 </ModMetaData>
