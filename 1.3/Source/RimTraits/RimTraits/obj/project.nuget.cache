@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aLyZAR0Vncagyy9uVIBbQBkEPYyF8jH6ax1Zxm5Z4Tl4fVbo5TjYRJ7rBh4JCzbhxyhtBBCU0BFQTtDvWaz17g==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3389\\krafs.rimworld.ref.1.3.3389.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.2.1\\lib.harmony.2.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
