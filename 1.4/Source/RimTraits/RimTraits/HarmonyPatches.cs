@@ -69,7 +69,7 @@ namespace RimTraits
                             continue;
                         }
                         int degree = PawnGenerator.RandomTraitDegree(newTraitDef);
-                        if (!pawn.story.childhood.DisallowsTrait(newTraitDef, degree) && (pawn.story.adulthood == null || !pawn.story.adulthood.DisallowsTrait(newTraitDef, degree)))
+                        if (!pawn.story.Childhood.DisallowsTrait(newTraitDef, degree) && (pawn.story.Adulthood == null || !pawn.story.Adulthood.DisallowsTrait(newTraitDef, degree)))
                         {
                             Trait trait2 = new Trait(newTraitDef, degree);
                             if (pawn.mindState == null || pawn.mindState.mentalBreaker == null || !((pawn.mindState.mentalBreaker.BreakThresholdMinor + trait2.OffsetOfStat(StatDefOf.MentalBreakThreshold)) * trait2.MultiplierOfStat(StatDefOf.MentalBreakThreshold) > 0.5f))

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {}
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.4\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.4\\Source\\RimTraits\\RimTraits\\RimTraits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
+        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.4\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
         "projectName": "RimTraits",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
+        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.4\\Source\\RimTraits\\RimTraits\\RimTraits.csproj",
         "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.3\\Source\\RimTraits\\RimTraits\\obj\\",
+        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimTraits---Medieval-Talents\\1.4\\Source\\RimTraits\\RimTraits\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -36,11 +36,11 @@
           "dependencies": {
             "Krafs.Rimworld.Ref": {
               "target": "Package",
-              "version": "[1.3.3389, )"
+              "version": "[1.4.3531, )"
             },
             "Lib.Harmony": {
               "target": "Package",
-              "version": "[2.2.1, )"
+              "version": "[2.2.2, )"
             }
           }
         }
