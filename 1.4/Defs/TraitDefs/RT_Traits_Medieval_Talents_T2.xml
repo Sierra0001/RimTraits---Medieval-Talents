@@ -313,8 +313,8 @@
           <CarryingCapacity>3</CarryingCapacity>
           <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
           <!--<ToxicSensitivity>-0.05</ToxicSensitivity>-->
-          <ToxicResistance>-0.05</ToxicResistance>
-          <ToxicEnvironmentResistance>-0.05</ToxicEnvironmentResistance>
+          <ToxicResistance>0.05</ToxicResistance>
+          <ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
           <MoveSpeed>0.1</MoveSpeed>
           <MentalBreakThreshold>-0.10</MentalBreakThreshold>
           <PainShockThreshold>0.10</PainShockThreshold>
@@ -539,8 +539,8 @@
           <IncomingDamageFactor>-0.05</IncomingDamageFactor>
           <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
           <!--<ToxicSensitivity>-0.05</ToxicSensitivity>-->
-          <ToxicResistance>-0.05</ToxicResistance>
-          <ToxicEnvironmentResistance>-0.05</ToxicEnvironmentResistance>
+          <ToxicResistance>0.05</ToxicResistance>
+          <ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
           <MoveSpeed>0.1</MoveSpeed>
           <MentalBreakThreshold>-0.10</MentalBreakThreshold>
           <PainShockThreshold>0.10</PainShockThreshold>

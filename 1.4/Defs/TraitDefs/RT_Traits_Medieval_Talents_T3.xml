@@ -242,8 +242,8 @@
           <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
           <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
           <!--<ToxicSensitivity>-0.1</ToxicSensitivity>-->
-          <ToxicResistance>-0.10</ToxicResistance>
-          <ToxicEnvironmentResistance>-0.10</ToxicEnvironmentResistance>
+          <ToxicResistance>0.10</ToxicResistance>
+          <ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
           <MoveSpeed>0.3</MoveSpeed>
           <MentalBreakThreshold>-0.10</MentalBreakThreshold>
           <PainShockThreshold>0.10</PainShockThreshold>
