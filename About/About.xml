@@ -11,6 +11,7 @@
 		<li>1.3</li>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -26,9 +27,10 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v2.2[/h1]
+[h1]Mod Version: v2.3[/h1]
 
 
 [h1]Get [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url] to change your Vanilla Trait Colors to match this mod![/h1]
@@ -52,13 +54,6 @@ You could really love doing something but you could still suck at it. And likewi
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836791007]RimFantasy - Medieval Overhaul Edition[/url]
 [b]- Recommended for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url] users. Incompatible with the other RimFantasy mods.[/b]
 
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy - Gemstones[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287]RimFantasy - Temperature Regulation[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986]RimFantasy - Crystallic Lighting[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159]RimFantasy - Arcane Batons[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2656314145]RimFantasy - Arcane Defences[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590]RimFantasy - Arcane Weapons[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2655568216]RimFantasy Addon - Heroic Weapons[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talents[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url]
@@ -94,9 +89,9 @@ Balance feedbacks are appreciated, please do however bear in mind that this mod 
 
 
 [h1]Latest Changes:[/h1]
-[b]v2.2[/b]
+[b]v2.3[/b]
 [list]
-[*][RimWorld 1.5] RimWorld 1.5 Ready.
+[*][Update] RimWorld 1.6 Ready.
 [/list]
 	</description>
 </ModMetaData>
